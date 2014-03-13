@@ -1,0 +1,10 @@
+#MMSkeletonView {
+    color: #385F8A;
+    background: rgb(250, 246, 240);;
+    width: 100%;
+}
+
+#MMSkeletonView .skeletonclass{
+    border: 1px solid rgb(107, 193, 209);
+    -webkit-box-sizing: border-box;
+}

@@ -1,0 +1,32 @@
+{
+  "author": "Dag Jomar Mersland",
+  "name": "MazeMap-Brunch-Beta-Application",
+  "description": "A basic Brunch skeleton for a new application",
+  "version": "1.0.0",
+  "homepage": "http://www.mazemap.com",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/brunch watch -s",
+    "build": "./node_modules/.bin/brunch build -P"
+  },
+  "dependencies": {
+    "brunch": "~1.7.12",
+    "javascript-brunch": ">= 1.0 < 1.7",
+    "css-brunch": ">= 1.0 < 1.7",
+    "handlebars-brunch": ">= 1.0 < 1.7",
+    "uglify-js-brunch": ">= 1.0 < 1.7",
+    "clean-css-brunch": ">= 1.0 < 1.7",
+    "auto-reload-brunch": "~1.6.3",
+    "jshint-brunch": "~1.6.0",
+    "sass-brunch": "~1.7.2"
+  },
+  "devDependencies": {
+    "requirejs": "~2.1.9",
+    "express": "~3.4.7",
+    "http-proxy": "~0.10.4",
+    "colors": "~0.6.2"
+  }
+}

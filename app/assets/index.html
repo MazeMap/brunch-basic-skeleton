@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>MazeMap Beta Application</title>
+
+    <!-- standard viewport tag to set the viewport to the device's width
+    , Android 2.3 devices need this so 100% width works properly and
+    doesn't allow children to blow up the viewport width-->
+    <meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+    <!-- width=device-width causes the iPhone 5 to letterbox the app, so
+    we want to exclude it for iPhone 5 to allow full screen apps -->
+    <meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" />
+
+    <link rel="stylesheet" href="resources/stylesheets/app.css">
+    <script src="resources/javascripts/vendor.js"></script>
+    <script src="resources/javascripts/app.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+
+</head>
+
+<body style="">
+
+
+
+
+    <script>
+
+    var App = require('myApp/main')();
+
+    App.init();
+
+    </script>
+
+</body>
+
+</html>
